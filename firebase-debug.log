@@ -1,0 +1,74 @@
+[debug] [2021-03-25T00:03:30.739Z] ----------------------------------------------------------------------
+[debug] [2021-03-25T00:03:30.747Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Molagad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-25T00:03:30.748Z] CLI Version:   9.2.0
+[debug] [2021-03-25T00:03:30.749Z] Platform:      win32
+[debug] [2021-03-25T00:03:30.749Z] Node Version:  v12.18.2
+[debug] [2021-03-25T00:03:30.753Z] Time:          Thu Mar 25 2021 01:03:30 GMT+0100 (West Africa Standard Time)
+[debug] [2021-03-25T00:03:30.754Z] ----------------------------------------------------------------------
+[debug] [2021-03-25T00:03:30.755Z] 
+[debug] [2021-03-25T00:03:30.780Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-25T00:03:30.783Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Molagad\Documents\react-hamburger-menu
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-03-25T00:03:59.936Z] > refreshing access token with scopes: []
+[debug] [2021-03-25T00:03:59.940Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2021-03-25T00:04:00.643Z] <<< HTTP RESPONSE 200 {"pragma":"no-cache","cache-control":"no-cache, no-store, max-age=0, must-revalidate","date":"Thu, 25 Mar 2021 00:04:01 GMT","expires":"Mon, 01 Jan 1990 00:00:00 GMT","content-type":"application/json; charset=utf-8","vary":"X-Origin, Referer, Origin,Accept-Encoding","server":"scaffolding on HTTPServer2","x-xss-protection":"0","x-frame-options":"SAMEORIGIN","x-content-type-options":"nosniff","alt-svc":"h3-29=\":443\"; ma=2592000,h3-T051=\":443\"; ma=2592000,h3-Q050=\":443\"; ma=2592000,h3-Q046=\":443\"; ma=2592000,h3-Q043=\":443\"; ma=2592000,quic=\":443\"; ma=2592000; v=\"46,43\"","accept-ranges":"none","transfer-encoding":"chunked"}
+[debug] [2021-03-25T00:04:00.736Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-03-25T00:04:01.811Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-03-25T00:04:01.811Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[debug] [2021-03-25T00:10:58.575Z] ----------------------------------------------------------------------
+[debug] [2021-03-25T00:10:58.618Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Molagad\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2021-03-25T00:10:58.623Z] CLI Version:   9.2.0
+[debug] [2021-03-25T00:10:58.625Z] Platform:      win32
+[debug] [2021-03-25T00:10:58.626Z] Node Version:  v12.18.2
+[debug] [2021-03-25T00:10:58.704Z] Time:          Thu Mar 25 2021 01:10:58 GMT+0100 (West Africa Standard Time)
+[debug] [2021-03-25T00:10:58.707Z] ----------------------------------------------------------------------
+[debug] [2021-03-25T00:10:58.710Z] 
+[debug] [2021-03-25T00:10:58.835Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2021-03-25T00:10:58.838Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\Molagad\Documents\react-hamburger-menu
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2021-03-25T00:11:12.131Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2021-03-25T00:11:16.085Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2021-03-25T00:11:16.086Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project hamburger-menu-ab1a9 (frontend-design) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
